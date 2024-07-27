@@ -1,0 +1,56 @@
+body{
+    font-family: 'Raleway';
+    margin: 0;
+}
+
+header{
+    display: flex;
+    gap: 77px;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+}
+
+nav{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    
+    padding-bottom: 10px;
+
+}
+
+.link{
+    flex-grow: 1;
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    transition: 0.3s all ease;
+    padding-bottom:  10px;
+    border-bottom: 3px solid black;
+   text-align: center;
+}
+
+.link:hover{
+    border-bottom: 3px solid blue;
+    color: blue;
+}
+
+
+
+.banner{
+    text-transform: uppercase;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-right: 200px;
+    align-items: end;
+    height: 100vh;
+    background-image: url(img/bg.jpg);
+}
+
+.banner_text{
+font-size: 70px;
+margin-bottom: 0;
+}
