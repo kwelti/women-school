@@ -54,3 +54,89 @@ nav{
 font-size: 70px;
 margin-bottom: 0;
 }
+
+.about_hello{
+    color: #0F98D3;
+    font-size: 50px;
+
+}
+.about_us{
+    padding: 75px 0 145px 30px;
+    width: 70%;
+}
+
+.image{
+    
+    width: 30%;
+}
+
+.image img{
+    width: 100%;
+}
+
+.second_img{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.learn_school{
+    width: 600px;
+    font-size: 30px;
+}
+
+.about_school{
+    font-size: 40px;
+    width: 500px;
+}
+
+.why_title{
+    text-align: center;
+    font-size: 60px;
+    color:#0F98D3;
+}
+
+.why{
+    font-size: 30px;
+}
+
+
+.list{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.locations_title{
+    font-size: 30px;
+    color:white;
+}
+
+.locations{
+    font-size: 26px;
+    color: white;
+
+}
+
+footer{
+    background-color: #2CA9DF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 100px 30px 40px;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
+}
+
+.form input{
+    padding: 10px 30px;
+}
+
+.title_form{
+    font-size: 30px;
+    color: white;
+}
