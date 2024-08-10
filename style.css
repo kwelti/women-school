@@ -3,6 +3,10 @@ body{
     margin: 0;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 header{
     display: flex;
     gap: 77px;
@@ -48,6 +52,7 @@ nav{
     align-items: end;
     height: 100vh;
     background-image: url(img/bg.jpg);
+    background-size: cover;
 }
 
 .banner_text{
@@ -139,4 +144,8 @@ footer{
 .title_form{
     font-size: 30px;
     color: white;
+}
+
+.buy_title{
+    text-align:left;
 }
